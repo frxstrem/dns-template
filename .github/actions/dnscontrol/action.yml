@@ -1,0 +1,6 @@
+---
+name: DNSControl Action
+description: Deploy your DNS configuration to multiple providers
+runs:
+  using: docker
+  image: 'Dockerfile'
