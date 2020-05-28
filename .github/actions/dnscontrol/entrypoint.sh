@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e -o pipefail
 
 sh -c "dnscontrol $*" | tee output.txt
 
